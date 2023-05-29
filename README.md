@@ -77,15 +77,15 @@ It's important to note that in some tasks a GAN might be enough or even better t
 
 # Loss
 
-Loss Function to be optimized
+## Loss Function to be optimized
 
 ![image](https://github.com/NityamPareek/Pix2Pix-Image-Colorization-Using-GANs/assets/97893479/bf0bd0fd-974b-4c75-a8f8-aac674325d24)
  
-L1 loss
+## L1 loss
 
 ![image](https://github.com/NityamPareek/Pix2Pix-Image-Colorization-Using-GANs/assets/97893479/b9f2f997-4008-4d39-93ed-dc27eb4e84bb)
  
-GAN Loss
+## GAN Loss
 
 ![image](https://github.com/NityamPareek/Pix2Pix-Image-Colorization-Using-GANs/assets/97893479/98073a7f-fe16-43d5-8cfa-78cd9436ea54)
  
