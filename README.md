@@ -90,7 +90,12 @@ It's important to note that in some tasks a GAN might be enough or even better t
 ![image](https://github.com/NityamPareek/Pix2Pix-Image-Colorization-Using-GANs/assets/97893479/98073a7f-fe16-43d5-8cfa-78cd9436ea54)
  
 x -> grayscale image (the condition introduced)
+
 y -> 2 channel output of generator
+
 z -> input noise of generator
+
 G -> Generator Model
+
 D -> Discriminator Model
+
