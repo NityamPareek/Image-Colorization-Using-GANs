@@ -65,7 +65,7 @@ There are several reasons why a CGAN can be better than a standard GAN:
 
 It's important to note that in some tasks a GAN might be enough or even better than a CGAN, it depends on the task and the data.
 
-#Architecture
+# Architecture
 
 ## 1. Generator
 
