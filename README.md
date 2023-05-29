@@ -9,7 +9,7 @@ We use 2 different approaches for this task.
 1. Implementing the paper as it is, and training both the generator and discriminator from scratch together.
 2. Pretraining the generator separately in a supervised and deterministic manner to avoid the problem of "the blind leading the blind" in the GAN game where neither generator nor discriminator knows anything about the task at the beginning of training. I'm going to use a pretrained ResNet18 as the backbone of my U-Net and to accomplish the second stage of pretraining, I am going to train the U-Net on the training set with only L1 Loss. Then I will move to the combined adversarial and L1 loss, as done previously.
 
-#Theory
+# Theory
 
 ## 1. Generative adversarial networks (GAN)
 
