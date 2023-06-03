@@ -101,3 +101,17 @@ D -> Discriminator Model
 
 # Models
 Download my trained models from: https://drive.google.com/drive/folders/15c52V5yaaZILAzhxL3e6j5wz3bDisOQl?usp=sharing
+
+# Results
+Following are the results for the baseline model:
+![image](https://github.com/NityamPareek/Image-Colorization-Using-GANs/assets/97893479/604da562-04a3-47f7-85c3-bec6c12fd983)
+
+Following are the results for the model with Pre-Trained Generator:
+![image](https://github.com/NityamPareek/Image-Colorization-Using-GANs/assets/97893479/b6184d91-858a-4c1d-ab75-73449af1c352)
+
+# Conclusion and Final Thoughts
+1. Even though both models are not performing very well, we can see that the model with the pre-trained generator shows more promising results
+2. Due to a lack of computational power, I was not able to train the model on a large number of images and also trained each model for only 20 epochs. Increasing these numbers would give much more promising results
+
+
+
