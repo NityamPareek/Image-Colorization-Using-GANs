@@ -1,6 +1,6 @@
-# Pix2Pix-Image-Colorization-Using-GANs
+# Image-Colorization-Using-GANs
 # Description
-This repository contains notebooks on training Generative Adversarial Networks (GANs) to tackle the task of image colorization as described in the pix2pix paper.
+This repository contains notebooks on training Generative Adversarial Networks (GANs) to tackle the task of image colorization.
 
 # Introduction
 Image-to-Image Translation with Conditional Adversarial Networks paper, which is known by the name pix2pix, proposed a general solution to many image-to-image tasks in deep learning, in which one of those was colorization. In this approach two losses are used: L1 loss, which makes it a regression task, and an adversarial (GAN) loss, which helps to solve the problem in an unsupervised manner by assigning the outputs a number indicating how "real" they look.
