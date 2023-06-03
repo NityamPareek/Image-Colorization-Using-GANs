@@ -99,3 +99,5 @@ G -> Generator Model
 
 D -> Discriminator Model
 
+# Models
+Download my trained models from: https://drive.google.com/drive/folders/15c52V5yaaZILAzhxL3e6j5wz3bDisOQl?usp=sharing
