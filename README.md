@@ -99,6 +99,13 @@ G -> Generator Model
 
 D -> Discriminator Model
 
+# Improving the Results
+
+In order to avoid a case of "blind leading the blind", I took the following measures:
+1. Replaced the backbone of the U-Net with a ResNet18 pre-trained on the ImageNet dataset. 
+2. Pre-Trained the generator on the entire dataset for 20 epochs with L1 loss
+3. Trained the entire GAN for 20 epochs
+
 # Models
 Download my trained models from: https://drive.google.com/drive/folders/15c52V5yaaZILAzhxL3e6j5wz3bDisOQl?usp=sharing
 
