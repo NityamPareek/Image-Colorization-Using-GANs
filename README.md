@@ -65,7 +65,7 @@ There are several reasons why a CGAN can be better than a standard GAN:
 
 It's important to note that in some tasks a GAN might be enough or even better than a CGAN, it depends on the task and the data.
 
-# Architecture
+# Architecture as Proposed by Paper
 
 ## 1. Generator
 
@@ -110,15 +110,10 @@ In order to avoid a case of "blind leading the blind", I took the following meas
 Download my trained models from: https://drive.google.com/drive/folders/15c52V5yaaZILAzhxL3e6j5wz3bDisOQl?usp=sharing
 
 # Results
-## Following are the results for the baseline model:
-![image](https://github.com/NityamPareek/Image-Colorization-Using-GANs/assets/97893479/604da562-04a3-47f7-85c3-bec6c12fd983)
-
-## Following are the results for the model with Pre-Trained Generator:
-![image](https://github.com/NityamPareek/Image-Colorization-Using-GANs/assets/97893479/b6184d91-858a-4c1d-ab75-73449af1c352)
+![image](https://github.com/NityamPareek/Image-Colorization-Using-GANs/assets/97893479/4a35a58e-452a-47b6-a2e7-515c306f5441)
 
 # Conclusion and Final Thoughts
-1. Even though both models are not performing very well, we can see that the model with the pre-trained generator shows more promising results
-2. Due to a lack of computational power, I was not able to train the model on a large number of images and also trained each model for only 20 epochs. Increasing these numbers would give much more promising results
+We can see that the GAN is performing well on the data even with a small training dataset and less number of iterations.
 
 
 
